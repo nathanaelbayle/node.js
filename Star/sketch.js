@@ -3,7 +3,7 @@ let stars = [];
 let speed;
 
 function setup() {
-  createCanvas(1536,864);
+  createCanvas(1500,750);
   for (let i = 0; i < 800; i++) {
     stars[i] = new Star();
   }
